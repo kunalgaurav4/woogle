@@ -28,7 +28,7 @@ function Search({ hideButtons = false }) {
                 <input></input>
                 <MicIcon></MicIcon>
             </div>
-            (!hideButtons
+            {/* (!hideButtons
             {
                 <div className="search__buttons">
                     <Button type="submit" onClick={search} variant="outlined">
@@ -36,7 +36,7 @@ function Search({ hideButtons = false }) {
                     </Button>
                     <Button variant="outlined">I'm feeling Lucky</Button>
                 </div>
-            }
+            } */}
             )
             <div className="search__buttons">
                 <Button type="submit" onClick={search} variant="outlined">
